@@ -5,7 +5,6 @@ const app = express();
 // if not timestamp is provided use the time of right now
 app.get('/api/timestamp/', (req, res) => {
     const date = new Date();
-
     res.json({ unix: date.getTime(), utc: date.toUTCString() });
 });
 
