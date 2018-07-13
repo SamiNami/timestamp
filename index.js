@@ -10,7 +10,7 @@ app.get('/api/timestamp/', (req, res) => {
 
 app.get('/api/timestamp/:date_string', (req, res) => {
     const { date_string } = req.params;
-    let date = Number(date_string) || date_string;
+    let date = Number(date_string * 1000) || date_string;
     date = new Date(date);
 
     if (isNaN(date)) {
