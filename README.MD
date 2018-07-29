@@ -1,6 +1,7 @@
 Simple timestamp micro service.
 
-The API endpoint is GET https://polar-lowlands-12030.herokuapp.com/api/timestamp/:date_string?
+
+The API endpoint is GET NOT HOSTED ATM
 
 Example Usage:
 https://polar-lowlands-12030.herokuapp.com/api/timestamp/2015-12-25
